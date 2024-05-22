@@ -7,6 +7,14 @@ main {
     justify-content: center;
     height: 100%;
 
+    section {
+        height: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .main-section {
         gap: 10px;
         flex-grow: 0.7;
