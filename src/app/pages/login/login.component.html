@@ -5,7 +5,21 @@
 >
 
     <form [formGroup]="loginForm">
-        
-    </form>
+        <app-primary-input
+            formName="email"
+            type="email"
+            label="E-mail"
+            placeholder="johndoe@email.com"
+        >
+            <img src="email-icon.svg"/>
+        </app-primary-input>
 
+        <app-primary-input
+            formName="password"
+            type="password"
+            placeholder="Your password"
+        >
+            <img src="password-icon.svg"/>
+        </app-primary-input>
+    </form>
 </app-default-login-layout>
