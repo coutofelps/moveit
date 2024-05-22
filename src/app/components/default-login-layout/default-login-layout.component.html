@@ -4,11 +4,17 @@
         
         <h2>{{ title }}</h2>
 
-        <button>{{ primaryButtonText }} </button>
+        <div class="button-wrapper">
+            <button class="primary-button">{{ primaryButtonText }} </button>
 
-        <div><span>or</span></div>
-
-        <button>{{ secondaryButtonText }}</button>
+            <div class="divider">
+                <div></div>
+                <span>or</span>
+                <div></div>
+            </div>
+    
+            <button class="secondary-button">{{ secondaryButtonText }}</button>
+        </div>
     </section>
 
     <section class="main-section">
