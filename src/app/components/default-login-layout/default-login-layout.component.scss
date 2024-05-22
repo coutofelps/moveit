@@ -15,5 +15,10 @@ main {
 
     .form-section {
         flex-grow: 0.3;
+
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
     }
 }
