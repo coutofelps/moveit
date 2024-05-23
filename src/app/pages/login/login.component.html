@@ -2,11 +2,12 @@
     title="Log in into your account"
     primaryButtonText="Login now"
     secondaryButtonText="Sign up now"
+    (submit)="submit()"
 >
 
     <form [formGroup]="loginForm">
         <app-primary-input
-            formName="email"
+            formControlName="email"
             type="email"
             label="E-mail"
             placeholder="johndoe@email.com"
@@ -15,7 +16,7 @@
         </app-primary-input>
 
         <app-primary-input
-            formName="password"
+            formControlName="password"
             type="password"
             label="Password"
             placeholder="Your password"
