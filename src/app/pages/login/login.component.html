@@ -4,6 +4,7 @@
     secondaryButtonText="Sign up now"
     (submit)="submit()"
     (navigate)="navigate()"
+    [disabledPrimaryButton]="!loginForm.valid"
 >
 
     <form [formGroup]="loginForm">
